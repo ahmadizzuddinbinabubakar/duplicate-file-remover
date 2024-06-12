@@ -9,7 +9,7 @@
 
 ## Create executable:
 - pip install pyinstaller
-- pyinstaller duplicate-remover-gui.py
+- pyinstaller duplicate-remover-gui.py --onefile
 
 ## Example:
 - before:<br/>
