@@ -84,37 +84,5 @@ folder_label.pack()
 # tree_view.heading("Files", text="Files in Directory")
 # tree_view.pack(padx=20, pady=20, fill="both", expand=True)
 
-# create the widgets
-
-# open_button = Button(window, text='Open file', width=50)
-# time_label = Label(window, text='Time and date')
-# time_entry = Entry(window, width=50)
-# name_label = Label(window, text='First Name')
-# name_entry = Entry(window, width=50)
-# manager_label = Label(window, text='Manager Name')
-# manager_entry = Entry(window, width=50)
-# department_label = Label(window, text='Department Name')
-# department_entry = Entry(window, width=50)
-# save_label = Label(window, text='Save file name as')
-# save_entry = Entry(window, width=50)
-# save_button = Button(window, text="Save", width=50)
-
-# using grid layout
-# select_folder_button.grid(row=0, column=1)
-# print_button.grid(row=1, column=1)
-
-# open_button.grid(row=0, column=1)
-# time_label.grid(row=1, column=0, sticky='w')
-# time_entry.grid(row=1, column=1)
-# name_label.grid(row=2, column=0, sticky='w')
-# name_entry.grid(row=2, column=1)
-# manager_label.grid(row=3, column=0, sticky='w')
-# manager_entry.grid(row=3, column=1)
-# department_label.grid(row=4, column=0, sticky='w')
-# department_entry.grid(row=4, column=1)
-# save_label.grid(row=5, column=0, sticky='w')
-# save_entry.grid(row=5, column=1)
-# save_button.grid(row=6, column=1)
-
 # start the app
 window.mainloop()
